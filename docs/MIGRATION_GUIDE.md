@@ -1,6 +1,6 @@
 # Mizuki 内容迁移指南
 
-本指南将帮助你将现有的 Mizuki 博客从单仓库模式迁移到代码内容分离模式。
+本指南将帮助你将现有的 Mizuki 日常生活站点从单仓库模式迁移到代码内容分离模式。
 
 > 💡 **提示**: 如果是新项目,建议先阅读 [内容分离完整指南](./CONTENT_SEPARATION.md)
 
@@ -30,13 +30,13 @@ mkdir -p posts spec data images/albums images/diary images/posts
 
 # 创建 README
 cat > README.md << 'EOF'
-# Mizuki 博客内容
+# Mizuki 日常生活内容
 
-这是 Mizuki 博客的内容仓库,包含所有文章、数据和图片。
+这是 Mizuki 日常生活站点的内容仓库,包含所有文章、数据和图片。
 
 ## 目录结构
 
-- `posts/` - 博客文章
+- `posts/` - 日常生活文章
 - `spec/` - 特殊页面 (关于、友链等)
 - `data/` - 数据文件 (番剧、项目、技能、时间线)
 - `images/` - 图片资源

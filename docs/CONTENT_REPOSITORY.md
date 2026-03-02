@@ -1,12 +1,12 @@
 # Mizuki 内容仓库结构说明
 
-本文档说明如何创建和组织 Mizuki 博客的内容仓库。
+本文档说明如何创建和组织 Mizuki 日常生活站点的内容仓库。
 
 ## 📁 推荐的目录结构
 
 ```
 Mizuki-Content/
-├── posts/              # 博客文章
+├── posts/              # 日常生活文章
 │   ├── post-1.md
 │   ├── post-2.md
 │   └── my-article/
@@ -41,7 +41,7 @@ git init
 mkdir -p posts spec data images/albums images/diary images/posts
 
 # 创建 README
-echo "# Mizuki 博客内容" > README.md
+echo "# Mizuki 日常生活内容" > README.md
 ```
 
 ### 2. 从现有 Mizuki 项目迁移内容
@@ -65,7 +65,7 @@ cp -r public/images/* /path/to/Mizuki-Content/images/
 cd /path/to/Mizuki-Content
 
 git add .
-git commit -m "Initial commit: Add blog content"
+git commit -m "Initial commit: Add daily life content"
 
 # 添加远程仓库并推送
 git remote add origin https://github.com/your-username/Mizuki-Content.git

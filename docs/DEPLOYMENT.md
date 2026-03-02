@@ -1,6 +1,6 @@
 # Mizuki 部署指南
 
-本文档提供 Mizuki 博客在各个平台的部署配置说明。
+本文档提供 Mizuki 日常生活站点在各个平台的部署配置说明。
 
 ## 📖 目录
 
@@ -416,7 +416,7 @@ fatal: could not read Username for 'https://github.com'
 
 ## 💡 推荐配置
 
-### 个人博客
+### 个人日常生活站点
 - **平台**: Vercel 或 GitHub Pages
 - **模式**: 本地模式（最简单）
 - **配置**: 无需环境变量

@@ -1,49 +1,31 @@
+你好，欢迎来到这里 👋  
 
-This website is built with the **Astro** framework using the [Mizuki](https://github.com/matsuzaka-yuki/mizuki) theme.
+这是我的一个小小个人空间，用来记录日常生活里那些觉得值得留一留的瞬间：  
+可能是一篇随手写下的心情日记、一段对某部番剧或电影的感想、一次小小的出行经历，  
+也可能只是某天突然想到的一句话。
 
-::github{repo="matsuzaka-yuki/Mizuki"}
+## 关于我
 
-## 🌟 Theme Features
+- 喜欢安静，也喜欢热闹的烟火气。  
+- 偶尔追一追番、看看电影，沉迷各种好听的 BGM。  
+- 不算很会表达，但慢慢写、慢慢记录，大概就是我和世界对话的方式。
 
-### 🎨 Design & User Experience
-- **Modern & Elegant Design** - Clean, minimalist interface with beautiful typography
-- **Fully Responsive** - Optimized for all devices from mobile to desktop
-- **Dark/Light Mode** - Automatic theme switching with smooth transitions
-- **Beautiful Typography** - Enhanced readability with JetBrains Mono font
-- **Smooth Animations** - Fluid page transitions and interactive elements
+如果非要给自己下一个简单的定义的话：  
+**就是一个在普通生活里，努力寻找“心安”时刻的普通人。**
 
-### 🔍 Content & Search
-- **Advanced Search** - Powered by [Pagefind](https://pagefind.app/) for fast, accurate results
-- **Enhanced Markdown** - Extended syntax with code highlighting and math support
-- **Interactive Table of Contents** - Auto-scroll navigation for long articles
-- **RSS Feed Generation** - Stay updated with automatic feed generation
-- **Reading Time Estimation** - Know how long articles take to read
-- **Post Categorization** - Organize content with tags and categories
+## 关于这个博客
 
+- **定位**：以「日常 & 随笔」为主的个人博客  
+- **内容**：生活记录、观后感、一些零碎想法，也可能偶尔写写技术或折腾笔记  
+- **节奏**：想到就更，不会有特别固定的更新频率
 
+这里不会有很强的主题，也不会有很“专业”的输出，  
+更多是给自己留下一点足迹——  
+等过一阵子回头看时，能知道自己曾经在想些什么、在乎什么。
 
-### 📱 Special Pages
-- **Anime Tracking Page** - Track your anime watching progress with ratings
-- **Friends Links Page** - Showcase friend websites with beautiful cards
-- **Diary/Moments Page** - Share life moments like social media posts
-- **Archive Page** - Organized timeline view of all posts
-- **About Page** - Customizable personal introduction (this page!)
+## 如果你刚好路过
 
-### 🛠 Technical Features
-- **Enhanced Code Blocks** - Powered by [Expressive Code](https://expressive-code.com/)
-- **Math Support** - LaTeX rendering with KaTeX for mathematical expressions
-- **Image Optimization** - PhotoSwipe gallery with lazy loading
-- **SEO Optimized** - Built-in sitemap and meta tags for better search visibility
-- **Performance Optimized** - Fast loading with caching and optimization
-- **Comment System Ready** - Integration support for Twikoo comments
+谢谢你愿意点进来翻一翻。  
+如果哪一句话、哪一段文字，刚好与你产生了一点点共鸣，  
+那这份记录对我来说就已经足够有意义了。
 
-### 🎯 Advanced Markdown Features
-- **Callouts & Admonitions** - Beautiful info boxes with `> [!NOTE]`, `> [!TIP]`, `> [!WARNING]`
-- **Mathematical Equations** - Write LaTeX math with `$inline$` and `$$block$$` syntax
-- **GitHub Cards** - Embed repository cards with `::github{repo="user/repo"}`
-- **Syntax Highlighting** - Advanced code highlighting with line numbers
-- **Copy Code Buttons** - Easy code copying functionality
-
----
-
-*Built with ❤️ using Astro and inspired by modern web design principles.*
