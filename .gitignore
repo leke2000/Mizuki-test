@@ -1,49 +1,13 @@
-# build output
-dist/
-
-# generated types
-.astro/
-
-# dependencies
-node_modules/
-
-# logs
-npm-debug.log*
-yarn-debug.log*
-yarn-error.log*
-pnpm-debug.log*
-
-# environment variables
-.env
-.env.production
-
-# content repository (independent mode)
-/content/
-*.backup
-
-# Large zip files
-*.zip
-
-# macOS-specific files
+﻿# 忽略系统文件
 .DS_Store
-
-.vercel
-
-package-lock.json
-bun.lockb
-yarn.lock
-
-# ide
-.idea
-*.iml
-
-cache/
-fuwari/
-src/data/myself.ts
-src/pages/myself.astro
-
-# Bangumi generated data
-src/data/bangumi-data.json
-
-# Bilibili generated data
-src/data/bilibili-data.json
+Thumbs.db
+# 忽略压缩包/大文件
+*.zip
+*.rar
+*.7z
+*.mp4
+*.exe
+# 忽略依赖文件夹（如果是前端/后端项目可保留，否则删除）
+node_modules/
+venv/
+__pycache__/
