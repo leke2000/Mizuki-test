@@ -163,8 +163,10 @@ export const siteConfig: SiteConfig = {
 			title: "我若心安好", // 主页横幅主标题
 
 			subtitle: [
+				"从医院机房走出来，带着真实问题写代码",
+				"Java 后端 · 医疗信息化 · EMR 多数据源同步",
+				"把生产排障经验做成开源工具",
 				"写代码，也认真生活",
-				"专注数据可视化大屏与全栈开发",
 				"生活普通一点没关系，心里要有光",
 				"愿你被这个世界温柔以待",
 				"慢一点也没事，心稳住就好",
@@ -362,7 +364,7 @@ export const navBarConfig: NavBarConfig = {
 export const profileConfig: ProfileConfig = {
 	avatar: "assets/images/avatar.png", // 相对于 /src 目录。如果以 '/' 开头，则相对于 /public 目录
 	name: "我若心安好",
-	bio: "数据可视化大屏开发 · Vue 3 / Java，在这里记录技术与生活",
+	bio: "Java 后端工程师 · 医疗信息化（EMR 多数据源同步）| SpringBoot+Vue3 全栈 · 把生产排障经验做成开源工具",
 	typewriter: {
 		enable: true, // 启用个人简介打字机效果
 		speed: 80, // 打字速度（毫秒）
