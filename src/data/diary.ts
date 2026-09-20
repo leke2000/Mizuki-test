@@ -11,14 +11,16 @@ export interface DiaryItem {
 	tags?: string[];
 }
 
-// 示例日记数据
+// 日记数据
 const diaryData: DiaryItem[] = [
 	{
 		id: 1,
 		content:
-			"The falling speed of cherry blossoms is five centimeters per second!",
-		date: "2025-01-15T10:30:00Z",
+			"把博客重新整理了一遍：换上了自己的项目、技能和介绍，写了第一篇技术文章。希望这里不只是生活的树洞，也能成为别人认识我的一张名片。",
+		date: "2026-09-20T20:00:00+08:00",
 		images: ["/images/diary/sakura.jpg", "/images/diary/1.jpg"],
+		mood: "充实",
+		tags: ["博客", "日常"],
 	},
 ];
 

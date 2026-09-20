@@ -24,7 +24,7 @@ const SITE_TIMEZONE = 8; //设置你的网站时区 from -12 to 12 default in UT
 export const siteConfig: SiteConfig = {
 	title: "我若心安好",
 	subtitle: "一个属于我的小小天地",
-	siteURL: "https://mizuki.mysqil.com/", // 请替换为你的站点URL，以斜杠结尾
+	siteURL: "https://mizuki-test.vercel.app/", // 请替换为你的站点URL，以斜杠结尾
 	siteStartDate: "2026-02-26", // 站点开始运行日期，用于站点统计组件计算运行天数
 
 	timeZone: SITE_TIMEZONE,
@@ -163,6 +163,8 @@ export const siteConfig: SiteConfig = {
 			title: "我若心安好", // 主页横幅主标题
 
 			subtitle: [
+				"写代码，也认真生活",
+				"专注数据可视化大屏与全栈开发",
 				"生活普通一点没关系，心里要有光",
 				"愿你被这个世界温柔以待",
 				"慢一点也没事，心稳住就好",
@@ -269,21 +271,21 @@ export const navBarConfig: NavBarConfig = {
 			children: [
 				{
 					name: "GitHub",
-					url: "https://github.com/matsuzaka-yuki/Mizuki",
+					url: "https://github.com/leke2000",
 					external: true,
 					icon: "fa7-brands:github",
 				},
 				{
-					name: "Bilibili",
-					url: "https://space.bilibili.com/701864046",
+					name: "博客源码",
+					url: "https://github.com/leke2000/Mizuki-test",
 					external: true,
-					icon: "fa7-brands:bilibili",
+					icon: "material-symbols:code",
 				},
 				{
-					name: "Gitee",
-					url: "https://gitee.com/matsuzakayuki/Mizuki",
+					name: "邮箱",
+					url: "mailto:1793023565@qq.com",
 					external: true,
-					icon: "mdi:git",
+					icon: "material-symbols:mail",
 				},
 			],
 		},
@@ -360,36 +362,21 @@ export const navBarConfig: NavBarConfig = {
 export const profileConfig: ProfileConfig = {
 	avatar: "assets/images/avatar.png", // 相对于 /src 目录。如果以 '/' 开头，则相对于 /public 目录
 	name: "我若心安好",
-	bio: "愿你我都能在平凡的日子里，找到属于自己的小小心安",
+	bio: "数据可视化大屏开发 · Vue 3 / Java，在这里记录技术与生活",
 	typewriter: {
 		enable: true, // 启用个人简介打字机效果
 		speed: 80, // 打字速度（毫秒）
 	},
 	links: [
 		{
-			name: "Bilibili",
-			icon: "fa7-brands:bilibili",
-			url: "https://space.bilibili.com/701864046",
-		},
-		{
-			name: "Gitee",
-			icon: "mdi:git",
-			url: "https://gitee.com/matsuzakayuki",
-		},
-		{
 			name: "GitHub",
 			icon: "fa7-brands:github",
-			url: "https://github.com/matsuzaka-yuki",
+			url: "https://github.com/leke2000",
 		},
 		{
-			name: "Codeberg",
-			icon: "simple-icons:codeberg",
-			url: "https://codeberg.org",
-		},
-		{
-			name: "Discord",
-			icon: "fa7-brands:discord",
-			url: "https://discord.gg/MqW6TcQtVM",
+			name: "Email",
+			icon: "material-symbols:mail",
+			url: "mailto:1793023565@qq.com",
 		},
 	],
 };
@@ -448,7 +435,7 @@ export const shareConfig: ShareConfig = {
 
 export const announcementConfig: AnnouncementConfig = {
 	title: "", // 公告标题，填空使用i18n字符串Key.announcement
-	content: "这里是「我若心安好」的小小据点，欢迎光临～ヽ(✿ﾟ▽ﾟ)ノ 请随意逛逛，慢慢看文，记得好好爱自己。", // 公告内容
+	content: "欢迎来到「我若心安好」的小站～这里有技术笔记、项目作品，也有日常记录，随便逛逛，也许会有惊喜。", // 公告内容
 	closable: true, // 允许用户关闭公告
 	link: {
 		enable: true, // 启用链接
@@ -624,17 +611,17 @@ export const pioConfig: import("./types/config").PioConfig = {
 	mode: "draggable", // 默认为可拖拽模式
 	hiddenOnMobile: true, // 默认在移动设备上隐藏
 	dialog: {
-		welcome: "Welcome to Mizuki Website!", // 欢迎词
+		welcome: "欢迎来到我若心安好的小站～", // 欢迎词
 		touch: [
-			"What are you doing?",
-			"Stop touching me!",
-			"HENTAI!",
-			"Don't bully me like that!",
+			"你在做什么呀？",
+			"不要再摸我啦！",
+			"HENTAI！",
+			"不许这样欺负我！",
 		], // 触摸提示
-		home: "Click here to go back to homepage!", // 首页提示
-		skin: ["Want to see my new outfit?", "The new outfit looks great~"], // 换装提示
-		close: "QWQ See you next time~", // 关闭提示
-		link: "https://github.com/matsuzaka-yuki/Mizuki", // 关于链接
+		home: "点这里回到首页哦～", // 首页提示
+		skin: ["想看看我的新衣服吗？", "新衣服好看吗～"], // 换装提示
+		close: "QWQ 下次再见啦～", // 关闭提示
+		link: "https://github.com/leke2000/Mizuki-test", // 关于链接
 	},
 };
 
