@@ -1,0 +1,10 @@
+{
+  "title": "二次元收藏",
+  "description": "平时收集的一些喜欢的插画，治愈一下写代码的日常",
+  "date": "2026-05-20",
+  "location": "网络收藏",
+  "tags": ["ACG", "插画", "收藏"],
+  "layout": "masonry",
+  "columns": 3,
+  "hidden": false
+}

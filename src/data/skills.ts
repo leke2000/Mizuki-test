@@ -354,6 +354,17 @@ export const skillsData: Skill[] = [
 		projects: ["miku-club"],
 		color: "#F38020",
 	},
+	{
+		id: "blender",
+		name: "Blender",
+		description:
+			"业余自学 3D 建模，用 Blender 练习 Q 版角色建模与布线（进行中的小狐狸吉祥物），把写代码之外的创造力用在三维世界里。",
+		icon: "logos:blender",
+		category: "other",
+		level: "beginner",
+		experience: { years: 0, months: 6 },
+		color: "#EA7600",
+	},
 ];
 
 // Get skill statistics
