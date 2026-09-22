@@ -28,19 +28,19 @@ export const skillsData: Skill[] = [
 		category: "backend",
 		level: "intermediate",
 		experience: { years: 1, months: 6 },
-		projects: ["anime-mall", "ejet-emr-wisdom"],
+		projects: ["anime-mall", "ejet-screen-management"],
 		color: "#ED8B00",
 	},
 	{
 		id: "spring-boot",
 		name: "Spring Boot",
 		description:
-			"主力后端框架。用于 anime-mall 全栈项目与 ejet-emr-wisdom 工作项目，熟悉自动配置原理、Starter 整合与 REST API 设计，正在自研 starter。",
+			"主力后端框架。用于 anime-mall 全栈项目与 ejet-screen-management 工作项目，熟悉自动配置原理、Starter 整合与 REST API 设计，正在自研 starter。",
 		icon: "logos:spring-icon",
 		category: "backend",
 		level: "intermediate",
 		experience: { years: 1, months: 3 },
-		projects: ["anime-mall", "ejet-emr-wisdom"],
+		projects: ["anime-mall", "ejet-screen-management"],
 		color: "#6DB33F",
 	},
 	{
@@ -64,7 +64,7 @@ export const skillsData: Skill[] = [
 		category: "backend",
 		level: "intermediate",
 		experience: { years: 1, months: 3 },
-		projects: ["anime-mall", "ejet-emr-wisdom"],
+		projects: ["anime-mall", "ejet-screen-management"],
 		color: "#FF6F00",
 	},
 	{
@@ -186,7 +186,7 @@ export const skillsData: Skill[] = [
 		category: "database",
 		level: "intermediate",
 		experience: { years: 1, months: 6 },
-		projects: ["anime-mall", "ejet-emr-wisdom"],
+		projects: ["anime-mall", "ejet-screen-management"],
 		color: "#4479A1",
 	},
 	{
@@ -198,7 +198,7 @@ export const skillsData: Skill[] = [
 		category: "database",
 		level: "advanced",
 		experience: { years: 3, months: 0 },
-		projects: ["ejet-emr-wisdom"],
+		projects: ["ejet-screen-management"],
 		color: "#CC2927",
 	},
 	{
@@ -210,7 +210,7 @@ export const skillsData: Skill[] = [
 		category: "database",
 		level: "intermediate",
 		experience: { years: 2, months: 0 },
-		projects: ["ejet-emr-wisdom"],
+		projects: ["ejet-screen-management"],
 		color: "#F80000",
 	},
 	{
@@ -222,7 +222,7 @@ export const skillsData: Skill[] = [
 		category: "database",
 		level: "intermediate",
 		experience: { years: 1, months: 6 },
-		projects: ["ejet-emr-wisdom"],
+		projects: ["ejet-screen-management"],
 		color: "#4169E1",
 	},
 
@@ -260,7 +260,7 @@ export const skillsData: Skill[] = [
 		category: "tools",
 		level: "advanced",
 		experience: { years: 3, months: 0 },
-		projects: ["ejet-emr-wisdom", "blog"],
+		projects: ["ejet-screen-management", "blog"],
 		color: "#1679A7",
 	},
 	{
@@ -295,7 +295,7 @@ export const skillsData: Skill[] = [
 		category: "tools",
 		level: "intermediate",
 		experience: { years: 3, months: 0 },
-		projects: ["ejet-emr-wisdom"],
+		projects: ["ejet-screen-management"],
 		color: "#F8DC75",
 	},
 	{
@@ -329,6 +329,30 @@ export const skillsData: Skill[] = [
 		level: "intermediate",
 		experience: { years: 1, months: 0 },
 		color: "#2088FF",
+	},
+	{
+		id: "powershell",
+		name: "PowerShell",
+		description:
+			"熟练编写 Windows 自动化脚本：gameshelf 用 NTFS junction 整合多盘游戏目录，日常也用于部署、批量处理与系统排障，兼容 Windows PowerShell 5.1 与 PowerShell 7。",
+		icon: "material-symbols:terminal",
+		category: "tools",
+		level: "advanced",
+		experience: { years: 2, months: 0 },
+		projects: ["gameshelf"],
+		color: "#5391FE",
+	},
+	{
+		id: "cloudflare-pages",
+		name: "Cloudflare Pages",
+		description:
+			"用 Wrangler CLI 将原生前端项目部署到 Cloudflare Pages 全球 CDN（初音社等），熟悉自定义域名与 Web Analytics 配置。",
+		icon: "simple-icons:cloudflarepages",
+		category: "tools",
+		level: "intermediate",
+		experience: { years: 0, months: 6 },
+		projects: ["miku-club"],
+		color: "#F38020",
 	},
 ];
 

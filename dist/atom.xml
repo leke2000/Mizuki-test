@@ -5,7 +5,7 @@
   <link href="https://mizuki-test.vercel.app/" rel="alternate" type="text/html"/>
   <link href="https://mizuki-test.vercel.app/atom.xml" rel="self" type="application/atom+xml"/>
   <id>https://mizuki-test.vercel.app/</id>
-  <updated>2026-09-20T09:17:24.600Z</updated>
+  <updated>2026-09-22T06:01:21.943Z</updated>
   <language>zh_CN</language>
   <entry>
     <title>从医院机房到 Java 开发：我的 EMR 多数据源同步实战经验</title>
@@ -54,7 +54,7 @@ watch com.xxx.EmrSyncService doSync "{params, returnObj}" -x 2
 <p>火焰图（<code>profiler start</code> + <code>profiler stop --format flamegraph</code>）则适合定位"整体慢"但说不清是哪一段的问题。这部分我也在 <a href="https://leke2000.github.io/blog/2026/09/16/arthas-flame-graph-analysis/">Arthas 火焰图实战</a> 里整理过。</p>
 <h2>三、把排障经验沉淀成代码</h2>
 <p>做过实施的人写代码，有一个本能反应：<strong>凡是在机房里被坑过的地方，程序里都要兜底</strong>。</p>
-<p>举几个我在 ejet-emr-wisdom 里贯彻的原则：</p>
+<p>举几个我在 ejet-screen-management 项目里贯彻的原则：</p>
 <ol>
 <li><strong>同步前先校验</strong>：不信任源端字段类型，全部走一层归一化，避免"住院号带字母"这类坑；</li>
 <li><strong>按时间窗口增量比对</strong>：而不是全量 diff，避免时序错位带来的"假不一致"；</li>

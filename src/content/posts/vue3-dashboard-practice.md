@@ -64,7 +64,7 @@ watch com.xxx.EmrSyncService doSync "{params, returnObj}" -x 2
 
 做过实施的人写代码，有一个本能反应：**凡是在机房里被坑过的地方，程序里都要兜底**。
 
-举几个我在 ejet-emr-wisdom 里贯彻的原则：
+举几个我在 ejet-screen-management 项目里贯彻的原则：
 
 1. **同步前先校验**：不信任源端字段类型，全部走一层归一化，避免"住院号带字母"这类坑；
 2. **按时间窗口增量比对**：而不是全量 diff，避免时序错位带来的"假不一致"；

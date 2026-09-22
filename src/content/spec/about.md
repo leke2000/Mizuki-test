@@ -4,6 +4,11 @@
 
 白天在医院部署 EMR 系统、排查多数据源同步故障；晚上把这些经验做成开源工具和全栈项目。多年实施练出来的 **生产 sense**，是我写代码时最大的差异化优势。
 
+## 教育背景
+
+- **本科 · 计算机科学与技术（软件开发方向）**（2022 – 2026）
+- 毕业设计：《基于 SpringBoot 和 Vue 的校园招聘管理系统设计与实现》——独立完成需求分析、数据库设计、前后端编码与论文撰写，也是 SpringBoot + Vue 全栈路线的起点
+
 ## 专业背景
 
 - **医疗信息化（EMR/HIS）实施与交付**：多医院、多平台（C/S 架构 + Web）、多数据库环境的一线交付经验
@@ -24,18 +29,21 @@
 
 ### 企业级全栈
 
-- **[anime-mall](https://github.com/leke2000/anime-mall)** — 二次元资源商场（SpringBoot + Vue3 全栈）：钱包支付、收藏评论、管理后台、JWT 鉴权；附 GitHub Pages 演示模式与 Docker 一键部署，前后端分离 + 双部署方案
-- **ejet-emr-wisdom**（私有工作项目）— 医院 EMR 智慧同步套件：数据同步服务 + Web 管理端 + 屏幕监控，Java 多数据源架构，支撑多家医院上线
+- **[anime-mall](https://github.com/leke2000/anime-mall)** — 二次元资源商场（SpringBoot + Vue3 全栈）：钱包支付、收藏评论、管理后台、JWT 鉴权；附 GitHub Pages 演示模式与 Docker 一键部署，前后端分离 + 双部署方案（[在线演示](https://leke2000.github.io/anime-mall/)）
+- **ejet-screen-management**（私有工作项目）— 医院 EMR 智慧同步套件：Java 17 Maven 多模块后端（emr / system / infra）+ Vue3 + TypeScript + Element Plus 管理端 + ECharts 屏幕监控，支撑多家医院上线
 
 ### 工程工具
 
 - **[qq-capture](https://github.com/leke2000/qq-capture)** — QQ 聊天记录自动抓取器：零侵入（纯 UIA 只读，不注入不解密），实时监听 + 历史回溯 + SQLite / Markdown / JSON 导出
 - **[archive-helper](https://github.com/leke2000/archive-helper)** — 通用解压归档助手：伪装压缩包自动识别 / 还原 / 解压 / 分类归档
+- **[gameshelf](https://github.com/leke2000/gameshelf)** — 游戏架整合工具：用 NTFS junction 把散落在多块硬盘的游戏零占用合并成一个分类目录，附 Xbox 风格启动器
 - **[game-launcher](https://github.com/leke2000/game-launcher)** — 游戏启动管理器：Python + tkinter，零第三方依赖
 
 ### 交互产品（前端硬核向）
 
 - **[duo-games](https://github.com/leke2000/duo-games)** — 手机双人游戏机 13 合 1 + 毁灭战士 1993 致敬版：单文件 HTML，光线投射 FPS 引擎、程序化贴图与 BGM
+- **[nicomeow-rent-dash](https://leke2000.github.io/nicomeow-rent-dash/)** — 尼古喵喵：房租大作战，ヤニねこ 同人跑酷小游戏，程序化美术与音乐
+- **[miku-club](https://miku-club.pages.dev/)** — 初音社 Vocaloid 创作社区：零框架原生 JS 实现，部署在 Cloudflare Pages
 - **[terra-game](https://github.com/leke2000/terra-game)** — 泰拉像素 · 2D 沙盒：单文件 HTML 的类泰拉瑞亚沙盒，程序化地形生成
 
 ### 技术博客
@@ -53,6 +61,16 @@
 - **定位**：技术成长 + 生活记录的混合空间
 - **内容**：Java 后端、医疗信息化、EMR 数据同步的实战笔记，以及日常记录
 - **源码**：开放在 [GitHub](https://github.com/leke2000/Mizuki-test)，通过 Vercel 自动部署，任何人都可以访问
+
+## GitHub 精选仓库
+
+::github{repo="leke2000/anime-mall"}
+
+::github{repo="leke2000/qq-capture"}
+
+::github{repo="leke2000/gameshelf"}
+
+::github{repo="leke2000/duo-games"}
 
 ## 联系我
 

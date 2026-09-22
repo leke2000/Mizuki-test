@@ -25,6 +25,24 @@ export interface TimelineItem {
 
 export const timelineData: TimelineItem[] = [
 	{
+		id: "bachelor-degree",
+		title: "本科 · 计算机科学与技术（软件开发方向）",
+		description:
+			"系统学习计算机基础与软件开发。毕业设计为《基于 SpringBoot 和 Vue 的校园招聘管理系统设计与实现》，独立完成从需求分析、数据库设计、前后端编码到论文撰写的完整流程，也是 SpringBoot + Vue 全栈技术路线的起点。",
+		type: "education",
+		startDate: "2022-09-01",
+		endDate: "2026-06-30",
+		position: "本科生",
+		skills: ["Java", "Spring Boot", "Vue", "MySQL", "毕业设计"],
+		achievements: [
+			"完成毕业设计《基于 SpringBoot 和 Vue 的校园招聘管理系统设计与实现》",
+			"掌握前后端分离架构的完整开发流程",
+		],
+		icon: "material-symbols:school",
+		color: "#0EA5E9",
+		featured: true,
+	},
+	{
 		id: "hospital-implementation",
 		title: "医院信息化一线实施",
 		description:
@@ -44,10 +62,10 @@ export const timelineData: TimelineItem[] = [
 		featured: true,
 	},
 	{
-		id: "ejet-emr-wisdom",
-		title: "医院 EMR 智慧同步套件开发",
+		id: "ejet-screen-management",
+		title: "ejet-screen-management 医院 EMR 智慧同步套件开发",
 		description:
-			"从一线实施转向 Java 开发，参与私有工作项目 ejet-emr-wisdom：包含数据同步服务 + Web 管理端 + 屏幕监控，基于 Java 多数据源架构，支撑多家医院上线。把实施阶段的排障经验沉淀成代码。",
+			"从一线实施转向 Java 开发，参与私有工作项目 ejet-screen-management：Java 17 Maven 多模块后端（emr / system / infra）+ Vue 3 管理端 + ECharts 屏幕监控，基于多数据源架构，支撑多家医院上线。把实施阶段的排障经验沉淀成代码。",
 		type: "work",
 		startDate: "2025-06-01",
 		position: "Java 后端开发",

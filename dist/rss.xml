@@ -38,7 +38,7 @@ watch com.xxx.EmrSyncService doSync &quot;{params, returnObj}&quot; -x 2
 &lt;p&gt;火焰图（&lt;code&gt;profiler start&lt;/code&gt; + &lt;code&gt;profiler stop --format flamegraph&lt;/code&gt;）则适合定位&quot;整体慢&quot;但说不清是哪一段的问题。这部分我也在 &lt;a href=&quot;https://leke2000.github.io/blog/2026/09/16/arthas-flame-graph-analysis/&quot;&gt;Arthas 火焰图实战&lt;/a&gt; 里整理过。&lt;/p&gt;
 &lt;h2&gt;三、把排障经验沉淀成代码&lt;/h2&gt;
 &lt;p&gt;做过实施的人写代码，有一个本能反应：&lt;strong&gt;凡是在机房里被坑过的地方，程序里都要兜底&lt;/strong&gt;。&lt;/p&gt;
-&lt;p&gt;举几个我在 ejet-emr-wisdom 里贯彻的原则：&lt;/p&gt;
+&lt;p&gt;举几个我在 ejet-screen-management 项目里贯彻的原则：&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;&lt;strong&gt;同步前先校验&lt;/strong&gt;：不信任源端字段类型，全部走一层归一化，避免&quot;住院号带字母&quot;这类坑；&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;按时间窗口增量比对&lt;/strong&gt;：而不是全量 diff，避免时序错位带来的&quot;假不一致&quot;；&lt;/li&gt;

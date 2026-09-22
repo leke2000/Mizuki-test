@@ -284,6 +284,12 @@ export const navBarConfig: NavBarConfig = {
 					icon: "material-symbols:code",
 				},
 				{
+					name: "排障手记",
+					url: "https://leke2000.github.io/blog/",
+					external: true,
+					icon: "material-symbols:build-circle",
+				},
+				{
 					name: "邮箱",
 					url: "mailto:1793023565@qq.com",
 					external: true,
